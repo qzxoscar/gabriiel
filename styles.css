@@ -1,8 +1,8 @@
 body {
-    clor: white;
+    clor: rgb(14, 100, 33);
     background: black
 }
 
 header {
-    border: sollid 2px white;
+    border: sollid 2px rgb(14, 100, 33);
 }
