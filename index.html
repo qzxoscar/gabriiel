@@ -25,3 +25,32 @@
     
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Vídeo</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <video controls>
+        <source src="caminho-do-video.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+</body>
+</html>
